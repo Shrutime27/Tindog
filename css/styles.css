@@ -1,0 +1,159 @@
+
+body{
+  font-family: 'Ubuntu', sans-serif; ;
+}
+
+
+h1{
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+   font-size: 3.5rem;
+   line-height: 1.5;
+}
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+
+}
+h3{
+font-family: 'Montserrat', sans-serif; ;
+}
+p{
+  color: #8f8f8f;
+}
+
+/* titlw section */
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+#title{
+  background-color: #ff4c68
+}
+/* title image */
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%
+}
+
+/* navigation bar */
+.navbar-brand{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+
+/* download buttons */
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+
+/* feature box */
+
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+.icon{
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+#testimonials{
+
+background-color:  #ef8172;
+text-align: center;
+color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* for carosel button to go in side, padding from testimonial id is cut pasted here */
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* press section */
+#press{
+  background-color:  #ef8172;
+  text-align:center;
+  padding-bottom: 3%;
+
+}
+.press-logo{
+  width:15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* footer section */
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+}
+.cta-heading{
+  font-size: 3rem;
+}
+#footer{
+
+    padding: 100px;
+    text-align: center;
+
+}
+.footer-icon{
+  /* we can also give margin of 20px top/bottom nd 10px left/right */
+  padding: 1.5rem 0.75rem;
+
+}
+
+/* media query */
+
+@media (max-width:1028px) {
+
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
